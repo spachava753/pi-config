@@ -1,0 +1,22 @@
+# Allow only reviewed public configuration. Add new files explicitly here.
+/*
+!/.gitignore
+!/AGENTS.md
+!/settings.json
+!/README.md
+
+# Never track credentials or runtime data.
+auth.json
+.env
+.env.*
+*.pem
+*.key
+sessions/
+bin/
+git/
+npm/
+node_modules/
+models-store.json
+trust.json
+*.log
+.DS_Store
