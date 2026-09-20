@@ -4,9 +4,29 @@
 !/AGENTS.md
 !/settings.json
 !/README.md
+!/mcp.example.json
+!/skills/
+
+# Only the current Markdown skill snapshots are reviewed for tracking.
+/skills/**
+!/skills/ast-grep/
+!/skills/ast-grep/SKILL.md
+!/skills/ast-grep/references/
+!/skills/ast-grep/references/*.md
+!/skills/ast-grep-outline/
+!/skills/ast-grep-outline/SKILL.md
+!/skills/bb-cli/
+!/skills/bb-cli/SKILL.md
+!/skills/bb-cli/references/
+!/skills/bb-cli/references/*.md
+!/skills/bro/
+!/skills/bro/SKILL.md
 
 # Never track credentials or runtime data.
 auth.json
+mcp.json
+mcp-cache.json
+.skill-lock.json
 .env
 .env.*
 *.pem
